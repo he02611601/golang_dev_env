@@ -6,11 +6,13 @@ docker-compose down
 
 ## 目前有實作的功能
 ping API
-回傳
+http://localhost:8080/ping
+回傳:
 {
     "message": "pong"
 }
 
 websocket
-回傳
+ws://localhost:8080/ws
+回傳:
 你傳什麼他就回你什麼
